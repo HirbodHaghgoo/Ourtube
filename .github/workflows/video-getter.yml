@@ -1,4 +1,4 @@
-name: 01 - 🎬 دانلود ویدیو
+name: 02 - 🎬 دانلود یوتیوب
 
 on:
   workflow_dispatch:
@@ -55,7 +55,7 @@ jobs:
         id: validate_key
         run: |
           USER_KEY="${{ github.event.inputs.activation_key }}"
-          KEYS_URL="https://raw.githubusercontent.com/nikzad-avasam/notifications/refs/heads/main/assets/ytmjs0920qQgo0000.s"
+          KEYS_URL="https://raw.githubusercontent.com/keepfiless/activate/refs/heads/main/checklist/yt.txt"
 
           echo "=============================================="
           echo "🔐 کدفعالسازی بررسی شد"
